@@ -4,30 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> </title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-    <nav class="enlaces">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="accommodation.html#">Hoteles y Alojamiento</a></li>
-            <li><a href="visits_activities.html">Visitas y actividades</a></li>
-            <li><a href='entret.html'>Entretenimientos</a></li>
-        </ul>
-    </nav> <br>
-    <form method="POST" action="mailto:rocioanriquez23@gmail.com">
-        <label for='nombre'>Nombre del usuario</label>
-        <input type='text' id="nombreUsuario" name="nombre">
-        <br>
-        <label for='email'>Email del usuario</label>
-        <input type='email' for='email' id="correoUsuario" name="email">
-        <br>
-        <label for='mensaje'>Mensaje</label>
-        <textarea type='text' for='nombre' id="dejaUnMensaje" name="mensaje"></textarea>
-        <br>
-        <input type="submit">
+<body class="cremita">
+    <header>
+        <nav class="enlaces">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="accommodation.html#">Hoteles y Alojamiento</a></li>
+                <li><a href="visits_activities.html">Visitas y actividades</a></li>
+                <li><a href='entret.html'>Entretenimientos</a></li>
+                <li><a href="form.html">Contáctanos</a></li>
+            </ul>
+        </nav> <br>
+    </header>
+    <form class='contact-form' method="POST" action="mailto:rocioanriquez23@gmail.com">
+        <div class="form-column">
+            <div class="form-row">
+                <label for='nombre'>Nombre del usuario</label>
+                <input class="form-field" type='text' id="nombreUsuario" name="nombre">
+            </div>
+            <div class="form-row">
+                <label for='email'>Email del usuario</label>
+                <input class="form-field" type='email' for='email' id="correoUsuario" name="email">
+            </div>
+            <div class="form-row">
+                <label for='mensaje'>Mensaje</label>
+                <textarea class="form-field" type='text' for='nombre' id="dejaUnMensaje" name="mensaje"></textarea>
+            </div>
+            <input type="submit" value="enviar">
+        </div>
     </form>
 </body>
 

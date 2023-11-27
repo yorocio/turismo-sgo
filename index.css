@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+    color: #100007;
+}
+
+a{
+    text-decoration: none;
+}
+
+table,
+form,
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf0d5;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: burlywood;
+    background-color: #5f0f40;
+}
+
+tbody,
+td {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+}
+
+li>a {
+    color: #cd8b76;
+    text-align: center;
+    padding: 10px;
+    background-color: #8e4162;
+    border: 1px solid #100007;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conoce-santiago {
+    position: relative;
+    top: 60px;
+    left: 80%;
+    background-color: #fdf0d5;
+    border: solid black 3px;
+    border-radius: 10px;
+    color: #100007;
+    font-size: large;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.foto-sgo {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    border: solid #100007 3px;
+    border-radius: 10px;
+}
+
+img {
+    width: 30em;
+    height: auto;
+}
+
+.entret {
+    height: auto;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    color: #100007;
+    padding: 30px;
+}
+
+p {
+    text-align: justify;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #100007;
+}
+
+.act {
+    text-align: left;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.enlaces ul {
+    list-style-type: none;
+}
+
+.contacto,
+input,
+textarea {
+    border: 1px solid black;
+}
+
+.enlaces{
+    background-color: #5f0f40!important;
+}
+
+.cremita{
+    background-color: #fdf0d5;
+}
+
+.form-field{
+    width: 180px;
+    height:50px ;
+}
+
+.form-row{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-form{
+    width: 30%;
+    padding: 10px;
+}
+
+.form-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #100007;
+    padding: 10px;
+}
